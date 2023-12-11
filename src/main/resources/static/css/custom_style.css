@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+*{
+	font-family: verdana,myriad pro web,arial;
+	font-size: 14px;
+}
+body {
+    background-color: #f8f9fa;
+}
+.navbar-custom {
+    background-color: #568dc5; /* Cor de fundo do menu bar */
+    margin:0;
+    padding:0;
+}
+
+.navbar-brand-custom {
+    font-weight: bold;
+	padding: 5px 1rem;
+    display: block;
+    color: #568dc5;
+    background: #fff; 
+    border-bottom: 1px solid  
+}
+.navbar-brand-custom:hover {
+    color: #568dc5;
+    background: #fff;	
+}
+
+.navbar-brand-custom img {
+    width: 30px; /* Ajuste o tamanho da logo conforme necessário */
+    margin-right: 5px;
+}
+
+.navbar-nav-custom .nav-link {
+    color: #ffffff; /* Cor do texto dos itens de navegação */
+}
+.navbar-nav-custom .nav-link.active {
+    font-weight: bold;
+}
+.navbar-nav-custom .nav-link:hover {
+    text-decoration: underline;
+}
+
+nav .container-fluid {
+	padding: 0;
+}
+.report-container {
+    margin: auto;
+    margin-top: 50px;
+}
+
+.report-table {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.report-table-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
